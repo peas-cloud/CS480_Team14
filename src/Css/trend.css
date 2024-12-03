@@ -1,0 +1,107 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.trend {
+    background-color: blue;
+    color: white;
+    padding: 1%; /* Convert padding to a percentage */
+}
+
+.navbar-trend {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 1%; /* Convert padding to a percentage */
+    list-style: none;
+}
+
+.navbar-trend li {
+    display: inline;
+}
+
+.navbar-trend a {
+    margin-right: 4%;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px; /* Convert padding to a percentage */
+    background-color: orange;
+    border: 1% solid orange; /* Convert border to a percentage */
+    border-radius: 5px;
+}
+
+.navbar-trend a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    margin: 2%; /* Convert margin to a percentage */
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 20px;
+    border: 1% solid orange; /* Convert border to a percentage */
+    background-color: orange;
+    color: #fff;
+    font-size: 1.2%; /* Convert font-size to a percentage */
+    font-weight: bold;
+    padding: 2% 6%; /* Convert padding to a percentage */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    margin-left: 2%; /* Convert margin to a percentage */
+}
+
+/* Additional styles can be added as needed */
+
+/* Define styles for the select element */
+select {
+    padding: 2%; /* Convert padding to a percentage */
+    border: 1% solid blue; /* Convert border to a percentage */
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Dropdown arrow styles */
+select::-ms-expand {
+    display: none;
+}
+
+/* Define styles for when the dropdown is open */
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0.5% blue; /* Convert box-shadow to a percentage */
+}
+
+/* .grid-container { */
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); Create two equal-width columns */
+    /* gap: 1px; Adjust the gap between columns as needed */
+/* } */
+
+.element {
+    padding-bottom: 50px; /* Adjust the value as needed */
+}
